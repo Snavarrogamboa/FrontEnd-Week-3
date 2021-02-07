@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia's Resume</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+</head>
+<body class="container">
+<!--LOTS of trouble with this navbar, its still not completely working correctly. My guess is I'm using the wrong documentation from the wrong version-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Quick Links</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Education.html">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact Me</a>
+              </li>
+           
+           <!--Drop Down does not work :( -->
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Contact me</a>
+                <a class="dropdown-item" href="#">LinkedIn</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Instagram</a>
+              </div>
+            </li>
+          </ul>
+         
+         <!--Search button is just for looks no funtionality as of this time-->
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <h1 class="display-3">Sofia's Online Resume </h1>
+      </div>  
+      <div class="container-fluid">
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQGqOYx4bAeUCA/profile-displayphoto-shrink_800_800/0/1605822591969?e=1618444800&v=beta&t=IAvNbdCL0kXAP5j44J2ZJSPMGmmz3Fox7-F-3JmhNMo" class="img-fluid" alt="Responsive image">
+      </div>
+      <div class="container-fluid">
+        <p class="lead">
+           See why I'm the <b>best</b> candidate for the job
+          </p>
+      </div>
+          
+
+      
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script>src="node_modules/bootstrap/dist/js/bootstrap.bundles.js"</script>
+</body>
+</html>
+</body>
+</html>
+
+<!--Overall I like where this is going, in the future I will be completing this and fleshing it out completely, by adding css and maybe some JS functionality-->
